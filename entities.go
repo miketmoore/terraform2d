@@ -4,7 +4,6 @@ package terraform2d
 type Entity interface {
 	ID() EntityID
 	Category() EntityCategory
-	SpatialSystem() System
 }
 
 // EntityCategory is used to group entities
