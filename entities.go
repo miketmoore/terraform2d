@@ -1,14 +1,14 @@
-package entities
-
-import (
-	"github.com/miketmoore/terraform2d/categories"
-)
+package terraform2d
 
 // Entity is an interface for implementing concrete "things" in the game
 type Entity interface {
 	ID() EntityID
-	Category() categories.Category
+	Category() EntityCategory
+	SpatialSystem() System
 }
+
+// EntityCategory is used to group entities
+type EntityCategory uint
 
 // EntityID represents an entity ID
 type EntityID int
