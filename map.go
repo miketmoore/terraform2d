@@ -10,3 +10,10 @@ type ConnectedRooms struct {
 	Bottom RoomID
 	Left   RoomID
 }
+
+// Room defines an API for room implementations
+type Room interface {
+	MapName() string
+	ConnectedRooms() *ConnectedRooms
+	SetConnectedRoom(Direction, RoomID)
+}
