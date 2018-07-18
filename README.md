@@ -2,7 +2,6 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/miketmoore/terraform2d)](https://goreportcard.com/report/github.com/miketmoore/terraform2d)
 
-The first implementation is 
 [Zelduh](https://github.com/miketmoore/zelduh/tree/terraform2d) is the first implementation of this engine.
 
 ## Install
