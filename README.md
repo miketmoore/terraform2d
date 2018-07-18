@@ -1,4 +1,4 @@
-# terraform2d
+# :milky_way: terraform2d
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/miketmoore/terraform2d)](https://goreportcard.com/report/github.com/miketmoore/terraform2d)
 
