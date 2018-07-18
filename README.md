@@ -1,5 +1,12 @@
-# :construction: terraform2d
+# terraform2d
 
-This is a 2d adventure game engine built on the pixel game engine. 
+[![Go Report Card](https://goreportcard.com/badge/github.com/miketmoore/terraform2d)](https://goreportcard.com/report/github.com/miketmoore/terraform2d)
 
-The first implementation (a work in progress) is [here](https://github.com/miketmoore/zelduh/tree/terraform2d).
+The first implementation is 
+[Zelduh](https://github.com/miketmoore/zelduh/tree/terraform2d) is the first implementation of this engine.
+
+## Install
+
+```
+go get -u github.com/miketmoore/terraform2d/...
+```
